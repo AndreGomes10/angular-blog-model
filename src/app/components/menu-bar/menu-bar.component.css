@@ -1,0 +1,53 @@
+.header{
+    grid-area: header;
+    background-color: #fff;
+}
+
+.header .header-container{
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 75px;  /*altura minima, pra ficar bom no mobile*/
+}
+
+.header h1{
+    font-size: 3rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.header-container ul > li > a:hover{  /*hover pra quando passar o mouse ele da um efeito de bold no link*/
+    font-weight: bold;
+}
+
+.header-container > img{
+    width: 85px;
+    height: 85px;
+    display: inline-block;  /*pra aparecer a imagem*/
+}
+
+.header-container .logo{
+    font-size: 0;  /*pra esconder o texto que ficou em cima da imagem da logo*/
+}
+
+.header-container nav{
+    display: inline-block;  /*pra deixar o conteudo um do lado do outro*/
+    /*position: absolute;  /*absolute para conseguir trabalhar com as proporções, poder posicionar*/
+    justify-content: center;
+    right: 0;
+    margin-top: 30px;  /*30px pra poder centralizar a logo com o menu*/
+}
+
+.header-container ul li{
+    display: inline-block;  /*pra deixar o conteudo um do lado do outro*/
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-container .login{
+    justify-content: end;
+    align-items: end;
+    padding: 15px;
+}
