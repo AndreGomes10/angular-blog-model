@@ -19,7 +19,7 @@ export const dataFake = [
     },
     {
         "id": "4",
-        "title": "Ferrari F8",
+        "title": "Lamborghini",
         "description": "A Via Itália, importadora oficial da Ferrari no Brasil, confirmou o lançamento da F8 Tributo no país. O superesportivo chega para pôr um fim na 488 GTB/Spider/Pista e já está à venda no mercado.",
         "photoCover": "https://midias.agazeta.com.br/2022/12/23/ferrari-f8-tributo-936571.jpg"
     }
