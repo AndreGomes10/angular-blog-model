@@ -13,9 +13,9 @@ export const dataFake = [
     },
     {
         "id": "3",
-        "title": "Lamborghini Huracan",
-        "description": "Lançado em 2013 como o cupê de entrada da marca, o Lamborghini Huracan finalmente receberá um sucessor. Apesar de ainda manter em segredo todos os detalhes sobre o supercarro.",
-        "photoCover": "https://cdn.motor1.com/images/mgl/kNREB/s1/lamborghini-huracan-sto.jpg"
+        "title": "Porsche Macan T",
+        "description": "Modelo já está disponível na pré-venda, com o SUV Macan adotando pela primeira vez a nomenclatura T com mudanças visuais e mecânicas",
+        "photoCover": "https://revistacarro.com.br/wp-content/uploads/2022/02/Porsche-Macan-T-_7.jpg"
     },
     {
         "id": "4",

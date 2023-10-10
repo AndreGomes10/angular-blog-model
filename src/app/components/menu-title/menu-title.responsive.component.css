@@ -1,0 +1,9 @@
+@media screen and (max-width: 425px){
+    .container__menu-title > h1{
+        font-size: 20px;
+    }
+
+    .container__menu-title > p{
+        font-size: 10px;
+    }
+}

@@ -1,12 +1,9 @@
-header{
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-}
-
 @media screen and (max-width: 425px){
-    .header{
+    .container__articles {
+        margin-top: 30px;
+    
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

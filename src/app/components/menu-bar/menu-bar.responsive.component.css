@@ -1,0 +1,28 @@
+@media screen and (max-width: 425px){
+    .header .header-container{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .header-container > nav{
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-container nav ul li{
+        display: block;
+        padding: 5px 20px;
+    }
+
+    .cabecalho nav ul li a{
+        width: 100%;
+        display: block;
+    }
+
+    .header-container > img{
+        width: 100px;
+        height: 100px;
+        display: inline-block;  /*pra aparecer a imagem*/
+    }
+}
