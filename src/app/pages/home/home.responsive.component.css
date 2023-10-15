@@ -8,3 +8,9 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 768px){
+    .container__articles{
+        flex-direction: column;
+    }
+}
